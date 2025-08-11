@@ -112,6 +112,7 @@
                     max-width: 110px;
                 }
             }
+            
             .classynav ul {
                 li {
                     a {
@@ -163,6 +164,7 @@
             box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.2);
         }
     }
+
     #searchIcon {
         position: relative;
         z-index: 1;
@@ -178,6 +180,7 @@
             color: $primary;
         }
     }
+
     #cartIcon {
         position: relative;
         z-index: 1;
@@ -206,6 +209,7 @@
         }
     }
 }
+
 .search-form {
     @include trasform-duration(500ms);
     position: absolute;
@@ -262,6 +266,7 @@
         bottom: -55px;
     }
 }
+
 .classynav {
     @media #{$breakpoint-md} {
         padding-bottom: 70px;
@@ -269,6 +274,7 @@
     @media #{$breakpoint-xs} {
         padding-bottom: 70px;
     }
+
     > ul {
         @media #{$breakpoint-md} {
             padding-bottom: 20px;
