@@ -1,0 +1,46 @@
+/* ***** Master Stylesheet ***** */
+
+/* ::1.0 Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+/*::2.0 Import All CSS Plugins */
+@import 'css/bootstrap.min.css';
+@import 'css/classy-nav.css';
+@import 'css/font-awesome.min.css';
+@import 'css/owl.carousel.min.css';
+@import 'css/animate.css';
+@import 'css/style.css';
+@import 'css/magnific-popup.css';
+
+//****************
+//    utilities
+//****************
+@import "utilities/fonts1";
+@import "utilities/variables1";
+@import "utilities/responsive1";
+@import "utilities/color1";
+
+//*****************
+//    mixins
+//*****************
+@import "mixins/flex1";
+@import "mixins/miscellaneous1";
+
+//*****************
+//    stylesheet
+//*****************
+@import "reboote1";
+@import "spacing1";
+@import "preloader1";
+@import "heading1";
+@import "backtotop1";
+@import "buttons1";
+@import "header1";
+@import "hero1";
+@import "breadcrumb1";
+@import "homepage1";
+@import "blog1";
+@import "widget1";
+@import "shop1";
+@import "footer1";
+@import "contact1";
